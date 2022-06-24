@@ -13,7 +13,7 @@ export function Header() {
 
   return (
     <>
-      <Box width="90%" maxWidth="1000px" mx="auto">
+      <Box width="90%" maxWidth="1300px" mx="auto">
         <Box
           width="100%"
           component="header"
@@ -52,7 +52,7 @@ export function Header() {
       >
         <Box
           width="100%"
-          maxWidth="1000px"
+          maxWidth="1300px"
           mx="auto"
           display="flex"
           flexDirection="row"
