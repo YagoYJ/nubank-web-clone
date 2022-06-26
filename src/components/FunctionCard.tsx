@@ -8,7 +8,7 @@ interface FunctionCardProps {
   };
 }
 
-export default function FunctionCard({ name, img }: FunctionCardProps) {
+export function FunctionCard({ name, img }: FunctionCardProps) {
   return (
     <Box
       width={150}

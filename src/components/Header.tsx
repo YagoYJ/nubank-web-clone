@@ -1,8 +1,10 @@
-import { Box, Button, Skeleton, Typography } from "@mui/material";
-import LogoNubank from "../assets/logo-nubank.svg";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Box, Button, Skeleton, Typography } from "@mui/material";
+
 import InfoCard from "./InfoCard";
+
+import LogoNubank from "../assets/logo-nubank.svg";
 
 export function Header() {
   const [balanceIsVisible, setBalanceIsVisible] = useState(true);

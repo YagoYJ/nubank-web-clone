@@ -1,6 +1,4 @@
 import { Box } from "@mui/system";
-import FunctionCard from "../components/FunctionCard";
-import { Header } from "../components/Header";
 
 import DepositIcon from "../assets/deposit-icon.svg";
 import DollarIcon from "../assets/dollar-icon.svg";
@@ -8,6 +6,10 @@ import PayIcon from "../assets/pay-icon.svg";
 import PhoneIcon from "../assets/phone-icon.svg";
 import PixIcon from "../assets/pix-icon.svg";
 import TransferIcon from "../assets/transfer-icon.svg";
+
+import { Header } from "../components/Header";
+import { FunctionCard } from "../components/FunctionCard";
+import { Sidebar } from "../components/Sidebar";
 
 type Function = {
   name: string;
@@ -91,6 +93,20 @@ export function Home() {
             name={functionItem.name}
           />
         ))}
+      </Box>
+
+      <Box
+        component="main"
+        maxWidth="1300px"
+        display="flex"
+        alignItems="center"
+        justifyContent="space-between"
+        mx="auto"
+      >
+        <Box component="aside">
+          <Sidebar />
+        </Box>
+        <Box component="section"></Box>
       </Box>
     </Box>
   );
