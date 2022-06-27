@@ -97,7 +97,7 @@ export function Header() {
                     fontSize={20}
                     fontWeight="bold"
                   >
-                    R$ 200,00
+                    R$ 2.321.800,00
                   </Typography>
                 ) : (
                   <Skeleton
